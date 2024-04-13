@@ -1,0 +1,29 @@
+{
+	"name": "calculator-home-loan",
+	"version": "1.0.0",
+	"description": "Calculate home loan, monthly payment, total interest.",
+	"license": "MIT",
+	"repository": "Nembie/calculator-home-loan",
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+        "home",
+        "loan",
+        "calculator",
+        "home loan",
+        "home loan calculator"
+	],
+	"devDependencies": {
+		"ava": "^5.3.1"
+	}
+}
